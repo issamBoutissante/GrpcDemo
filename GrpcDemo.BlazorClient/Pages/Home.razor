@@ -1,0 +1,21 @@
+﻿@page "/"
+@using GrpcDemo.Service
+@inject Greeter.GreeterClient grpcClient
+
+<h3>gRPC with Blazor WebAssembly</h3>
+
+<input @bind="name" placeholder="Enter your name" />
+<button @onclick="SayHello">Say Hello</button>
+
+<p>@message</p>
+
+@code {
+    private string name;
+    private string message;
+
+    private async Task SayHello()
+    {
+        var reply = await grpcClient.SayHelloAsync(new HelloRequest { Name = name });
+        message = reply.Message;
+    }
+}
