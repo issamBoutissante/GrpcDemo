@@ -9,7 +9,7 @@ public static class GrpcWebService
 {
     public static Greeter.GreeterClient GetGrpcClient()
     {
-        var channel = GrpcChannel.ForAddress("https://localhost:5001", new GrpcChannelOptions
+        var channel = GrpcChannel.ForAddress("https://localhost:7259", new GrpcChannelOptions
         {
             HttpHandler = new GrpcWebHandler(GrpcWebMode.GrpcWeb, new HttpClientHandler())
         });
