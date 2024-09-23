@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcDemo.Service", "GrpcDem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcDemo.BlazorClient", "GrpcDemo.BlazorClient\GrpcDemo.BlazorClient.csproj", "{D804DA88-E393-47E8-A105-5F2D13DFCE60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcDemo.Shared", "GrpcDemo.Shared\GrpcDemo.Shared.csproj", "{53DD1419-F2BD-4597-BF24-C10655B831B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcDemo.Shared", "GrpcDemo.Shared\GrpcDemo.Shared.csproj", "{53DD1419-F2BD-4597-BF24-C10655B831B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcDemo.WpfClient", "GrpcDemo.WpfClient\GrpcDemo.WpfClient.csproj", "{490A0956-3E04-4631-A8C7-40BDB09A42E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{53DD1419-F2BD-4597-BF24-C10655B831B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53DD1419-F2BD-4597-BF24-C10655B831B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53DD1419-F2BD-4597-BF24-C10655B831B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{490A0956-3E04-4631-A8C7-40BDB09A42E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490A0956-3E04-4631-A8C7-40BDB09A42E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490A0956-3E04-4631-A8C7-40BDB09A42E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490A0956-3E04-4631-A8C7-40BDB09A42E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
