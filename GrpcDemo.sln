@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcDemo.Shared", "GrpcDemo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcDemo.WpfClient", "GrpcDemo.WpfClient\GrpcDemo.WpfClient.csproj", "{490A0956-3E04-4631-A8C7-40BDB09A42E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcDemo.Common", "GrpcDemo.Common\GrpcDemo.Common.csproj", "{922845B0-A737-4BB5-A3BF-89155B81A249}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{490A0956-3E04-4631-A8C7-40BDB09A42E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{490A0956-3E04-4631-A8C7-40BDB09A42E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{490A0956-3E04-4631-A8C7-40BDB09A42E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{922845B0-A737-4BB5-A3BF-89155B81A249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{922845B0-A737-4BB5-A3BF-89155B81A249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{922845B0-A737-4BB5-A3BF-89155B81A249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{922845B0-A737-4BB5-A3BF-89155B81A249}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

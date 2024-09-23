@@ -1,20 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.28.2" />
     <PackageReference Include="Grpc.Net.Client" Version="2.66.0" />
+    <PackageReference Include="Grpc.Net.Client.Web" Version="2.66.0" />
   </ItemGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\GrpcDemo.Common\GrpcDemo.Common.csproj" />
+    <ProjectReference Include="..\GrpcDemo.Shared\GrpcDemo.Shared.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,5 @@
-﻿using Grpc.Net.Client;
+﻿using GrpcDemo.Common;
 using GrpcDemo.Shared;
-using System;
 using System.Threading.Tasks;
 using System.Windows;
 
@@ -31,11 +30,8 @@ namespace GrpcDemo.WpfClient
         {
             try
             {
-                // Create a channel pointing to the gRPC server address
-                var channel = GrpcChannel.ForAddress("https://localhost:7259");
-
-                // Create the Greeter client from the shared library
-                var client = new Greeter.GreeterClient(channel);
+                // Get the shared gRPC client
+                var client = GrpcService.GetGreeterClient();
 
                 // Call the SayHello method with the user's name
                 var reply = await client.SayHelloAsync(new HelloRequest { Name = name });

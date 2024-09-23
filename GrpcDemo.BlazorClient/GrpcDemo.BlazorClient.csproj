@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GrpcDemo.Shared\GrpcDemo.Shared.csproj" />
+    <ProjectReference Include="..\GrpcDemo.Common\GrpcDemo.Common.csproj" />
   </ItemGroup>
 
 </Project>
